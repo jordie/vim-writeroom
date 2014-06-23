@@ -37,10 +37,10 @@ function VimWriteRoom ()
 			execute 'colorscheme ' . g:vimwriteroomcolorscheme
 		endif
 
-		set lines=999
-		set columns=80
+		"set lines=999
+		"set columns=80
 		set colorcolumn=0
-		set textwidth=80
+		"set textwidth=80
 		set guioptions-=r
 		set fuoptions=background:#00000000
 		set fu
